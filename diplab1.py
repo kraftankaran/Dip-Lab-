@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # 1. Read and display the grayscale image
-image_path = "diplab1ka2nd.jpg"  # Make sure the image is in the same folder
+image_path = "dip lab1.jpg"  # Make sure the image is in the same folder
 image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 
 if image is None:
